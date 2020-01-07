@@ -7,7 +7,6 @@ AllCops:
     - "Rakefile"
     - "spec/spec_helper.rb"
     - "node_modules"
-
   DisplayCopNames: true
 
 Metrics/LineLength:
