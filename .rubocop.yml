@@ -5,11 +5,12 @@ AllCops:
     - "config/**/*"
     - "Guardfile"
     - "Rakefile"
-    - "node_modules/**/*"
+    - "spec/spec_helper.rb"
+    - "node_modules"
   DisplayCopNames: true
 
-Metrics/LineLength:
-  Max: 120
+Layout/LineLength:
+  Max: 140
 Metrics/MethodLength:
   Include: ["app/controllers/*"]
   Max: 20
@@ -26,7 +27,7 @@ Style/Documentation:
 Style/ClassAndModuleChildren:
   Enabled: false
 
-Layout/AlignHash:
+Layout/HashAlignment:
   EnforcedColonStyle: key
 Layout/ExtraSpacing:
   AllowForAlignment: false
